@@ -3,11 +3,12 @@
 from datetime import datetime
 
 distance = 0.0
-car_type = input("select the type p (Pickup: $6.00), g (Grandola: $7.00), m (Mudanza: $10.00)")
+car_type = input("select the type p (Pickup: $6.00), g (Grandola: $7.00), m (Mudanza: $10.00): ")
 try:
     distance = float(input("set de distance in km: numbers: "))
 except ValueError: 
     print("the distance must be a number")
+    quit()
 
 mont = 0.0
 
