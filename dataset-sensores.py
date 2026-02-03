@@ -1,0 +1,8 @@
+"""DATASETS DE SENSORES"""
+
+farenheit_list = [0.12, 0.20, 200, 120, 360, 40]
+
+celsius_list = [(f* (9/5) + 32) for f in farenheit_list]
+
+print(celsius_list)
+
