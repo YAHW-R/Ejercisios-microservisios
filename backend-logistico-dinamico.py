@@ -1,6 +1,6 @@
 '''BACKEND LOGISTICO DINAMICO'''
 
-from datetime import datetime
+import datetime
 
 distance = 0.0
 car_type = input("select the type p (Pickup: $6.00), g (Grandola: $7.00), m (Mudanza: $10.00): ")
