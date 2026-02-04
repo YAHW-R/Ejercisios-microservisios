@@ -5,6 +5,7 @@ def get_validate_key(digit_num:int = 16):
         if _validate_key.isdigit():
             return _validate_key
         else:
+            # en el caso que la validate key no sea completamente numeros se vuelve a llamar a la funcion
             print("debe colocar unicamente numeros en la clave de validacion")
             get_validate_key(digit_num)
 

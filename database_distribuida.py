@@ -7,6 +7,6 @@ def calc_parity(num:int):
         return "B"
     
 try:
-    print("Servidor "+calc_parity(int(input("enter id: "))))
+    print("Servidor "+calc_parity(int(input("enter id: ")))) # se realiza todo el programa en una sola linea
 except ValueError:
     print("error: the data is incorrect")
